@@ -28,9 +28,6 @@ git clone -b lede https://github.com/pymumu/luci-app-smartdns package/luci-app-s
 git clone https://github.com/sirpdboy/luci-app-autopoweroff package/luci-app-autopoweroff
 
 # argon主题
-pushd package/lean
-rm -rf luci-theme-argon
-git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon luci-theme-argon
-popd
+git clone https://github.com/jerrykuku/luci-theme-argon.git 
 # Edge主题
-git clone -b 18.06 https://github.com/garypang13/luci-theme-edge package/luci-theme-edge
+#git clone -b 18.06 https://github.com/garypang13/luci-theme-edge package/luci-theme-edge
